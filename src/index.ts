@@ -1,5 +1,5 @@
 const BASE_URL: string = "https://my-json-server.typicode.com/zocom-christoffer-wallenberg/books-api/books"
-const homePage = document.querySelector('.wrapper');
+//const homePage = document.querySelector('.wrapper');
 const book = document.querySelector('.card');
 const books = document.querySelectorAll('.card');
 const front_pages = document.querySelectorAll('.front_page');
@@ -53,7 +53,7 @@ async function renderBook(id){
     }
     
     document.querySelector('#publisher').innerHTML = book.publisher;
-    const page = document.querySelector('.front_page') as HTMLElement;
+    const page = document.querySelector('.front_page') as HTMLElement | null;
     page.style.background = book.color;
     
 

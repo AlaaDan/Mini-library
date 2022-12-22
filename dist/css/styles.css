@@ -177,6 +177,7 @@ body{
 }
 p, span{
   font-size: 10px;
+  font-weight: 900;
 }
 
 .book_info{
@@ -187,7 +188,7 @@ p, span{
   grid-auto-rows: auto;
   background-color: #b2b2b2;
   margin-bottom: 20px;
-  padding: 5px;
+  padding:  5px;
   margin-left: 5px;
   border-radius: 5px;
 }
@@ -202,6 +203,11 @@ button{
   font-weight: bolder;
     
 }
+
+aside{
+  margin: 5px 0 0px 10px ;
+}
+
 #book_name, #author{
   margin: 5px 0;
 }
