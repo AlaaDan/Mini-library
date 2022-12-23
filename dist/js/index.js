@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 const BASE_URL = "https://my-json-server.typicode.com/zocom-christoffer-wallenberg/books-api/books";
-const homePage = document.querySelector('.wrapper');
+//const homePage = document.querySelector('.wrapper');
 const book = document.querySelector('.card');
 const books = document.querySelectorAll('.card');
 const front_pages = document.querySelectorAll('.front_page');
@@ -86,6 +86,24 @@ function showHide(id) {
 // books_names_front.forEach((book_name, index)=>{
 //     console.log(book_name);
 //     addingColor(book_name,index)
+// })
+// async function search() {
+//     const Books = await getApi()
+//     console.log(Books.length)
+//     const searchButton = document.querySelector('#searchButton') as HTMLInputElement;
+//     Books.forEach((singleBook, inx)=>{
+//         if (singleBook.title.includes(searchButton.value)){
+//             console.log(inx)
+//         }
+//     })
+//     // if (searchedBook[0]) {
+//     // //   displayBook(undefined, searchedBook[0]);
+//     // //   query.value = '';
+//     // }
+//   }
+// const searchButton = document.querySelector('#searchButton') as HTMLInputElement;
+// searchButton.addEventListener('click', (){
+//     search()
 // })
 books.forEach((book, index) => {
     //console.log(book);
