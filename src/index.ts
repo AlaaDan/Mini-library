@@ -5,6 +5,7 @@ const books = document.querySelectorAll('.card');
 const front_pages = document.querySelectorAll('.front_page');
 const books_names_front = document.querySelectorAll('.book_name_front');
 const books_author_front = document.querySelectorAll('.book_author_front');
+//const search = document.querySelector('input');
 
 
 interface Book_info{
@@ -98,5 +99,7 @@ books.forEach((book, index)=>{
         showHide(dataID)
     })
 })
+
+
 
 
